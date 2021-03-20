@@ -35,9 +35,9 @@
 
 	body {
 		background-color: _palette(bg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+		background-position: center(bg);
+		background-repeat: no-repeat(bg);
+		background-size: cover(bg);
 		@include vendor('background-image', (
 			'url("images/overlay.png")',
 			'linear-gradient(45deg, #{_palette(bg1)} 40%, #{_palette(bg2) 10%})',
